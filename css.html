@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>css</title>
+    <style>
+    b{color: red;
+    }
+    .c_class{
+        color: green;
+    }
+    #i_id{color: pink; }
+    #i_id2:before{
+        content: "☆";
+    }
+    #i_id2:after{
+        content: "★";
+    }
+    #i_id2:first-letter{
+        font-size: 50pt;
+    }
+    #i_id2:first-line{
+        color: violet;
+    }
+    .con:first-child{
+        color: blue;
+    }
+    .con:last-child{
+        color: hotpink;
+    }
+    .con:nth-child(3){
+        color: aquamarine;
+    }
+    a:link{color: black; text-decoration: none;}
+    a:visited{color: blue;}
+    a:hover{color: lightblue;}
+    a:active{color: yellow;}
+    a:focus{color: teal;}
+    </style>
+</head>
+<body>
+        <a href="index.html">돌아오기</a> <br> 
+        <b>내용1</b>
+        <div class="c_class">클래스</div>
+        <div id="i_id">아이디</div>
+        <div id="i_id2">가상요소 선택자  </div>
+
+        <ul>
+            <li class="con">민규1</li>
+            <li class="con">민규2</li>
+            <li class="con">민규3</li>
+            <li class="con">민규4</li>
+            <li class="con">민규5</li>
+        </ul>
+
+
+        <a href="#">
+            링크버튼
+        </a>
+
+
+</body>
