@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <style>
+    #wrap{
+        min-width: 1100px;
+        
+    }
     header>ul>li{
         float: left;
         list-style: none;
@@ -45,10 +49,89 @@
     }
     h2{
         margin: 9px;
+        color: #626262;
     }
     #nav{
         background-color: #eeeeee;
+        color: #626262;
     }
+    dd{
+        margin: 0px;
+    }
+    dt{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+    div>section:nth-child(1){
+        background-color: #98f;
+    }
+    div>section:nth-child(2){
+        background-color: #5d9;
+    }
+    div>section:nth-child(3){
+        background-color: #f76;
+    }
+    div>section:nth-child(4){
+        background-color: #ec5;
+    }
+
+    div>section h3{
+        color: white;
+        margin-top: 45px;
+        margin-bottom: 45px;
+
+    }
+    .content_part{
+        width: 480px;
+        float: left;
+        margin: 10px;
+
+    }
+    div>section>div{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px;
+
+/*        padding-left: 200px;
+        padding-right: 200px;*/
+
+    }
+    footer{
+        background-color: #333;
+        color: #dddddd;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    footer ul{
+        padding: 0;
+    }
+
+    footer ul>li{
+        list-style: none;
+        float: left;
+    }
+
+    #footer1_1{
+        float: left;}
+    #footer2{
+        float: right;}
+    #footer1>li{
+        padding-left: 10px;
+        padding-right: 10px;
+        border-right: solid 1px gray;
+    }
+    #footer1>li:nth-child(6){
+        border-right: none;
+    }
+    #footer2>li{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
 
 
 
@@ -100,18 +183,18 @@
                       <section>
                           <div>
                           <h3>Web Desgin</h3>
-                          <div>
-                             <img src="imgs/layout1_img1.jpg">
+                          <div class="content_part">
+                              <img src="imgs/layout1_img1.jpg">
                               <dl>
-                                   <dt>
-                                     감기
-                                   </dt>
+                                  <dt>
+                                      감기
+                                  </dt>
                                   <dd>
-                                    걸린거같아
-                                    </dd>
-                                </dl>
+                                      걸린거같아걸린거같아걸린거같아
+                                  </dd>
+                              </dl>
                           </div>
-                          <div>
+                          <div class="content_part">
                               <img src="imgs/layout1_img2.jpg">
                               <dl>
                                   <dt>
@@ -122,12 +205,13 @@
                                   </dd>
                               </dl>
                           </div>
+                              <div class="clear"></div>
                           </div>
                       </section>
                       <section>
                           <div>
-                              <h3>Web Desgin</h3>
-                              <div>
+                              <h3>Icons</h3>
+                              <div class="content_part">
                                   <img src="imgs/layout1_img3.jpg">
                                   <dl>
                                       <dt>
@@ -138,7 +222,7 @@
                                       </dd>
                                   </dl>
                               </div>
-                              <div>
+                              <div class="content_part">
                                   <img src="imgs/layout1_img4.jpg">
                                   <dl>
                                       <dt>
@@ -149,11 +233,13 @@
                                       </dd>
                                   </dl>
                               </div>
+                              <div class="clear"></div>
                           </div>
                       </section>
-                      <section>                          <div>
-                          <h3>Web Desgin</h3>
+                      <section>
                           <div>
+                          <h3>Illustlations</h3>
+                          <div class="content_part">
                               <img src="imgs/layout1_img5.jpg">
                               <dl>
                                   <dt>
@@ -164,7 +250,7 @@
                                   </dd>
                               </dl>
                           </div>
-                          <div>
+                          <div class="content_part">
                               <img src="imgs/layout1_img6.jpg">
                               <dl>
                                   <dt>
@@ -175,10 +261,13 @@
                                   </dd>
                               </dl>
                           </div>
-                      </div></section>
-                      <section>                          <div>
-                          <h3>Web Desgin</h3>
+                              <div class="clear"></div>
+                      </div>
+                      </section>
+                      <section>
                           <div>
+                          <h3>Misc</h3>
+                          <div class="content_part">
                               <img src="imgs/layout1_img7.jpg">
                               <dl>
                                   <dt>
@@ -189,7 +278,7 @@
                                   </dd>
                               </dl>
                           </div>
-                          <div>
+                          <div class="content_part">
                               <img src="imgs/layout1_img8.jpg">
                               <dl>
                                   <dt>
@@ -200,9 +289,37 @@
                                   </dd>
                               </dl>
                           </div>
+                              <div class="clear"></div>
                       </div></section>
                   </div>
-            <footer>footer</footer>
+            <footer>
+                <div id="footer1_1">
+                    <ul id="footer1">
+                    <li>home</li>
+                    <li>about</li>
+                    <li>services</li>
+                    <li>work</li>
+                    <li>blog</li>
+                    <li>contact us</li>
+                    <div class="clear"></div>
+                </ul>
+                <p>ⓒ 2013 BlueBox. All Right Reserved.</p>
+                <p>the loges in the design are the property of their respective owners/copyright holders.</p>
+                </div>
+                <ul id="footer2">
+                    <li><img src="imgs/layout1_footer_icon1.png"></li>
+                    <li><img src="imgs/layout1_footer_icon2.png"></li>
+                    <li><img src="imgs/layout1_footer_icon3.png"></li>
+                    <li><img src="imgs/layout1_footer_icon4.png"></li>
+                    <li><img src="imgs/layout1_footer_icon5.png"></li>
+                    <li><img src="imgs/layout1_footer_icon6.png"></li>
+                    <div class="clear"></div>
+                </ul>
+                <div class="clear"></div>
+
+
+
+            </footer>
 
 
 
