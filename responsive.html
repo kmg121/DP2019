@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>responsive</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        .co1-1 {width: calc(100% / 12);}
+        .co1-2 {width: calc(100% / 6);}
+        .co1-3 {width: calc(100% / 4);}
+        .co1-4 {width: calc(100% / 3);}
+        .co1-6 {width: calc(100% / 2)}
+        .co1-12 {width: calc(100% / 1);}
+
+        body div:nth-child(1){
+            background-color: #333333;}
+        body div:nth-child(2){
+            background-color: #666;}
+        body div:nth-child(3){
+            background-color: #999;}
+        body div:nth-child(4){
+            background-color: #aaa;}
+        body div:nth-child(5){
+            background-color: #ccc;}
+        body div:nth-child(6){
+            background-color: #ddd;}
+        [class*="co1-"] {
+            float: left;
+        }
+
+        /*
+            모바일 320px ~ 767px
+            타블렛 768px ~ 1023px or 1199px
+            PC 1200px 이상 or 1024px 이상
+        */
+        body{background-color: green;}
+        @media screen and (max-width: 1920px) {
+            body{background-color: blue;}
+        }
+        @media screen and (max-width: 1023px){
+            body{background-color: red;}
+        }
+        @media screen and (max-width: 767px){
+            body{background-color: yellow;}
+        }
+
+    </style>
+</head>
+<body>
+<div class="co1-1">co1-1</div>
+<div class="co1-2">co1-2</div>
+
+<div class="co1-3">co1-3</div>
+
+<div class="co1-4">co1-4</div>
+
+<div class="co1-6">co1-6</div>
+
+<div class="co1-12">co1-12</div>
+
+</body>
+</html>
