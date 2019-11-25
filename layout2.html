@@ -117,10 +117,81 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+
+        .headeer{
+            margin-left: 90px;
+            margin-top: 61px;
+            z-index: 999;
+            position: fixed;
+        }
+        .headeer>img{
+            width: 188px;
+            float: left;
+        }
+        .headeer nav{
+            margin-left: 1100px;
+            margin-right: 90px;
+        }
+        .headeer nav li{
+            float: left;
+            list-style: none;
+            margin-left: 43px;
+            margin-top: 5px;
+            font-size: 14pt;
+            font-weight: bold;
+            color: gray;
+        }
+
+
+        .foooter{
+
+            padding-top: 177px;
+            padding-left: 92px;
+            padding-right: 92px;
+            padding-bottom: 177px;
+        }
+        .foooter>img{
+            width: 188px;
+            margin-bottom: 400px;
+        }
+        .footer_1 li{
+            list-style-type: none;
+        }
+        .footer_1 li:nth-child(1){
+            float: left;
+            margin-left: -40px;
+        }
+        .footer_1 li:nth-child(2){
+            float: right;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        a:link { color: black; }
+
+        a:visited { color: black; }
+
+        a:hover { color: black; }
+
+        a:active { color: black; }
     </style>
 </head>
 <body>
-<a href="index.html">돌아오기</a>
+<div class="headeer">
+    <img src="imgs/sens_logo.png" alt="logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">INDEX</a></li>
+            <li><a href="layout1.html">Layout1</a></li>
+            <li><a href="layout2.html">Layout2</a></li>
+            <li><a href="layout3.html">Layout3</a></li>
+            <li><a href="layout4.html">Layout4</a></li>
+            <div class="clear"></div>
+        </ul>
+    </nav>
+</div>
 
     <div id="wrap">
         <header>
@@ -214,7 +285,15 @@
             </ul>
 
         </section>
-
+        <div class="foooter">
+            <img src="imgs/sens_logo.png" alt="logo">
+            <div class="footer_1">
+                <ul>
+                    <li>2019221060 곽민규</li>
+                    <li>Digital Publishing Design 2019</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>

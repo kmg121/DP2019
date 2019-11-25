@@ -7,11 +7,95 @@
         <meta charset="utf-8" />
         <!-- euc-kr, utf-8 -->
         <meta name="author" content="민규" />
-        
+        <style>
 
+        header{
+        margin-left: 90px;
+        margin-top: 61px;
+        z-index: 999;
+        position: fixed;
+        }
+        header>img{
+        width: 188px;
+        float: left;
+        }
+        nav{
+        margin-left: 1100px;
+        margin-right: 90px;
+        }
+        nav li{
+        float: left;
+        list-style: none;
+        margin-left: 43px;
+        margin-top: 5px;
+        font-size: 14pt;
+        font-weight: bold;
+        color: gray;
+        }
+        body{
+            background-image: url(imgs/layout4_bbg.png);
+            background-attachment: fixed;
+            background-color: #d2d2d2;
+        }
+        .content{
+            height: 200px;
+            padding: 200px;
+        }
+
+        .clear{
+        clear: both;
+        }
+        footer{
+
+            padding-top: 177px;
+            padding-left: 92px;
+            padding-right: 92px;
+            padding-bottom: 177px;
+        }
+        footer>img{
+            width: 188px;
+            margin-bottom: 400px;
+        }
+        .footer_1 li{
+            list-style-type: none;
+        }
+        .footer_1 li:nth-child(1){
+            float: left;
+            margin-left: -40px;
+        }
+        .footer_1 li:nth-child(2){
+            float: right;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        a:link { color: black; }
+
+        a:visited { color: black; }
+
+        a:hover { color: black; }
+
+        a:active { color: black; }
+        </style>
     </head>
 
     <body>
+    <header>
+        <img src="imgs/sens_logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">INDEX</a></li>
+                <li><a href="layout1.html">Layout1</a></li>
+                <li><a href="layout2.html">Layout2</a></li>
+                <li><a href="layout3.html">Layout3</a></li>
+                <li><a href="layout4.html">Layout4</a></li>
+                <div class="clear"></div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
         <a href="training.html"> 
             training.html</a>
             <a href="html_part1.html">html_part1.html</a>
@@ -20,7 +104,17 @@
             <a href="layout1.html">layout1.html</a>
             <a href="layout2.html">layout2.html</a>
             <a href="layout3.html">layout3.html</a>
-        <br>
-        
+
+    </div>
+
+    <footer>
+        <img src="imgs/sens_logo.png" alt="logo">
+        <div class="footer_1">
+            <ul>
+                <li>2019221060 곽민규</li>
+                <li>Digital Publishing Design 2019</li>
+            </ul>
+        </div>
+    </footer>
     </body>
 </html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>layout4</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700&display=swap&subset=korean" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0px;
+            font-family: 'Noto Sans KR', sans-serif;
+            word-break: keep-all;
+            background-image: url(imgs/layout4_bbg.png);
+            background-attachment: fixed;
+
+        }
+        header{
+            margin-left: 90px;
+            margin-top: 61px;
+            z-index: 999;
+            position: fixed;
+        }
+        header>img{
+            width: 188px;
+            float: left;
+        }
+        nav{
+            margin-left: 1100px;
+            margin-right: 90px;
+        }
+        nav li{
+            float: left;
+            list-style: none;
+            margin-left: 43px;
+            margin-top: 5px;
+            font-size: 14pt;
+            font-weight: bold;
+            color: gray;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        .content1>img {
+            width: 100%;
+        }
+        h1{
+            font-size: 50pt;
+        }
+        .content1>h1{
+            position: absolute;
+            top: 400px;
+            left: 278px;}
+        .content1>p{
+            position: absolute;
+            top: 1271px;
+            left: 90px;
+            width: 1068px;
+            font-size: 20pt;
+        }
+        .content2{
+            margin-left: 90px;
+            margin-top: 220px;
+            margin-bottom: 210px;
+        }
+        .content2_1>img{
+            width: 574px;
+            float: left;
+        }
+        .content2_1>div{
+            padding: 50px;
+            margin-left: 834px;
+        }
+        .content2_1 dd{
+            margin-left: 100px;
+            margin-right: 90px;
+            font-size: 20pt;
+        }
+        .content2_2>ul{
+            padding: 0;
+        }
+        .content2_2 li{
+            list-style-type: none;
+            float: left;
+            width: 413px;
+            margin: 7px;
+
+        }
+        .content2_2 img{
+            display: block;
+            width: 100%;
+        }
+        .content3{
+            background-color: black;
+            color: white;
+            z-index: -999;
+            background-image: url(imgs/layout4_bbg.png);
+            background-attachment: fixed;
+
+        }
+        .content3_1{
+            padding-left: 250px;
+            padding-right: 250px;
+            padding-top: 177px;
+        }
+
+        .content3>img{
+            height: 699px;
+            width: 462px;
+            float: right;
+        }
+        .content3_1>div{
+            width: 800px;
+            float: left;
+            margin-top: 130px;
+
+        }
+        .content3_1 dd{
+            margin-right: 90px;
+            font-size: 20pt;
+            font-weight: 400;
+        }
+        .content3_2{
+            margin-top: 129px;
+            margin-left: 250px;
+            padding-bottom: 430px;
+        }
+        .content3_2 li{
+            float: left;
+            list-style-type: none;
+            margin-right: 110px;
+            text-align: center;
+        }
+        .content3_2 dt:nth-child(2){
+            font-size: 20pt;
+            font-weight: 500;
+        }
+        .content3_2 img{
+            width: 590px;
+            height: 590px;
+            display: block;
+        }
+        footer{
+            background-image: url(imgs/layout4_bbg.png);
+            background-attachment: fixed;
+            background-color: #d2d2d2;
+            padding-top: 177px;
+            padding-left: 92px;
+            padding-right: 92px;
+            padding-bottom: 177px;
+        }
+        footer>img{
+            width: 188px;
+            margin-bottom: 400px;
+        }
+        .footer_1 li{
+            list-style-type: none;
+        }
+        .footer_1 li:nth-child(1){
+            float: left;
+            margin-left: -40px;
+        }
+        .footer_1 li:nth-child(2){
+            float: right;
+        }
+
+
+
+        a{
+            text-decoration: none;
+        }
+        a:link { color: black; }
+
+        a:visited { color: black; }
+
+        a:hover { color: black; }
+
+        a:active { color: black; }
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <header>
+        <img src="imgs/sens_logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">INDEX</a></li>
+                <li><a href="layout1.html">Layout1</a></li>
+                <li><a href="layout2.html">Layout2</a></li>
+                <li><a href="layout3.html">Layout3</a></li>
+                <li><a href="layout4.html">Layout4</a></li>
+                <div class="clear"></div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrap">
+        <div class="content1">
+            <img src="imgs/layout4_bg.jpg" alt="bike">
+            <h1>언더본바이크</h1>
+            <p> 언더본이라는 말을 직역하자면 Underbone, 즉 엔진이 뼈대 밑에 위치한다는 뜻이다. 사실 모든 바이크에 적용되는 말이다. 하지만 우리가 언더본이라고 부르는 바이크들은 커브 스타일의 프레임, 저배기량이라는 공통점을 가지고 있다.
+            </p>
+        </div>
+        <div class="content2">
+            <div class="content2_1">
+            <img src="imgs/layout4_con2_1.jpg" alt="bike">
+                <div>
+                <dl>
+                    <dt><h1>커브</h1></dt>
+                    <dd>  혼다의 바이크 기종으로 전세계적으로 1억대이상 판매가 된 기종. 1958년 최초로 등장해 아직도 꾸준히 사랑받고 있다. 누구나 쉽게 운전할 수 있고 실용적이며 내구성이 좋은 것이 특징이다. 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 ㅍ어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고
+                    </dd>
+                </dl>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="content2_2">
+                <ul>
+                <li><img src="imgs/layout4_con2_2.jpg" alt="bike"></li>
+                <li><img src="imgs/layout4_con2_2.jpg" alt="bike"></li>
+                <li><img src="imgs/layout4_con2_2.jpg" alt="bike"></li>
+                <li><img src="imgs/layout4_con2_2.jpg" alt="bike"></li>
+                <li><img src="imgs/layout4_con2_2.jpg" alt="bike"></li>
+                <li><img src="imgs/layout4_con2_2.jpg" alt="bike"></li>
+                <li><img src="imgs/layout4_con2_2.jpg" alt="bike"></li>
+                <li><img src="imgs/layout4_con2_2.jpg" alt="bike"></li>
+                <div class="clear"></div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content3">
+
+            <div class="content3_1">
+                <div>
+                    <dl>
+                        <dt><h1>시티 100</h1></dt>
+                        <dd>혼다의 바이크 기종으로 전세계적으로 1억대이상 판매가 된 기종. 1958년 최초로 등장해 아직도 꾸준히 사랑받고 있다. 누구나 쉽게 운전할 수 있고 실용적이며 내구성이 좋은 것이 특징이다. 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고 ㅍ어쩌고저쩌고 어쩌고저쩌고 어쩌고저쩌고
+                        </dd>
+                    </dl>
+                </div>
+                <img src="imgs/layout4_con2_1.jpg" alt="bike">
+            </div>
+            <div class="clear"></div>
+
+            <div class="content3_2">
+                <ul>
+                    <li>
+                        <img src="imgs/layout4_con2_2.jpg" alt="bike">
+                        <dl>
+                            <dt>
+                                asd
+                            </dt>
+                            <dt>
+                                asd
+                            </dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <img src="imgs/layout4_con2_2.jpg" alt="bike">
+                        <dl>
+                            <dt>
+                                asd
+                            </dt>
+                            <dt>
+                                asd
+                            </dt>
+                        </dl>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <footer>
+            <img src="imgs/sens_logo.png" alt="logo">
+            <div class="footer_1">
+                <ul>
+                    <li>2019221060 곽민규</li>
+                    <li>Digital Publishing Design 2019</li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>
