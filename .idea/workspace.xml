@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layout4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            <state relative-caret-position="476">
+              <caret line="199" column="37" selection-start-line="199" selection-start-column="37" selection-end-line="199" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -76,6 +76,10 @@
       <find>nav</find>
       <find>weigh</find>
       <find>fix</find>
+      <find>back</find>
+      <find>logo</find>
+      <find>bbg</find>
+      <find>link</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,12 +166,13 @@
       <workItem from="1573434361835" duration="9376000" />
       <workItem from="1574039382320" duration="9408000" />
       <workItem from="1574644363506" duration="9584000" />
-      <workItem from="1575110994691" duration="3908000" />
+      <workItem from="1575110994691" duration="4550000" />
+      <workItem from="1575256967421" duration="1714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74082000" />
+    <option name="totallyTimeSpent" value="76438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -290,8 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layout4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        <state relative-caret-position="476">
+          <caret line="199" column="37" selection-start-line="199" selection-start-column="37" selection-end-line="199" selection-end-column="37" />
         </state>
       </provider>
     </entry>
